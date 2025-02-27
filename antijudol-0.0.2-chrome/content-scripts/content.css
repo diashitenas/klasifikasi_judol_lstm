@@ -1,0 +1,1 @@
+.judol-off .judol{filter:none!important}:not(.judol-off) .judol:hover{filter:blur(0px)}:not(.judol-off) .judol{filter:blur(10px)}.judol{transition:filter .5s ease}

@@ -1,0 +1,1 @@
+import"./_virtual_wxt-html-plugins-DPbbfBKe.js";var l,o;((o=(l=globalThis.browser)==null?void 0:l.runtime)==null?void 0:o.id)==null?globalThis.chrome:globalThis.browser;chrome.storage.local.get(["enabled"]).then(e=>{const c=document.querySelector("[type=checkbox]");c.checked=!!(e!=null&&e.enabled),c.onchange=()=>{chrome.storage.local.set({enabled:c.checked})}});
